@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <!-- Topbar Start -->
+    {% include 'partials/top_bar.html'%}
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    {% include 'partials/navbar_start.html'%}
+    <!-- Navbar End -->
+
+    <!-- Main News Slider Start -->
+    {% include 'partials/main_news_slider.html'%}
+    <!-- Main News Slider End -->
+
+    <!-- Breaking News Start -->
+    {% include 'partials/breaking_news.html'%}
+    <!-- Breaking News End -->
+
+    <!-- Featured News Slider Start -->
+    {% include 'partials/featured_news.html'%}
+    <!-- Featured News Slider End -->
+
+    <!-- News With Sidebar Start -->
+    {% include 'partials/sidebar.html'%}
+    <!-- News With Sidebar End -->
+{% endblock %}

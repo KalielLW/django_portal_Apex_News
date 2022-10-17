@@ -1,0 +1,30 @@
+1 criar o model Autor
+    nome
+    avatar  (url de imagem)
+    apresentação
+
+2 criar o model Categoria
+    nome
+
+3 criar o model Artigo
+    titulo (charfield)
+    subtitulo (charfield)
+    autor (FK)
+    Categoria (FK)
+    texto destaque 1 (textfield)
+    texto destaque 2 (textfield)
+    texto (textfield)
+    img_url (url de imagem) (charfield)
+    created_at (datetime)
+    updated_at (datetime)
+    ativo (Booleanfield)
+
+4 criar model controle views
+    artigo_id (FK)
+    clicks (Integerfield)
+
+5 adicionar novos models ao admin
+
+6 (EXTRA)
+    criar viws para o app 'artigo'
+    colocar o context dentro do template 'artigo.html'
